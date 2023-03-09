@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия по России</title>
-    <link rel="stylesheet" href="/pages/index.css">
+    <link rel="stylesheet" href="pages/index.css">
 </head>
 
 <body class="page">
     <header class="header page__container">
-        <img class="header__logo" src="/images/header-logo.svg" alt="Логотип">
+        <img class="header__logo" src="images/header-logo.svg" alt="Логотип">
         <ul class="header__lang-links">
             <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
             <li><a href="#" class="header__lang-link">En</a></li>
@@ -21,7 +21,7 @@
             <h1 class=" lead__title">Путешествия по&nbsp;России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.</p>
             <figure class="lead__image">
-                <img class="lead__polka" src="images/lead-polka.jpg" alt="Фото женщины на боковой полке">
+                <img class="lead__picture" src="images/lead-polka.jpg" alt="Фото женщины на боковой полке">
                 <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
             </figure>
         </section>
@@ -45,19 +45,25 @@
                 <li class="intro__item"><span class="intro__item-accent">Аэропортов</span> 241</li>
             </ul>
         </section>
-        <section class="photo-grid page__container">
-            <img class="photo-grid__image" src="images/photo-grid-train.jpg" alt="Вид из окна вагона">
-            <img class="photo-grid__image" src="images/photo-grid-atharva-tulsi.jpg" alt="Вид на горы">
-            <img class="photo-grid__image" src="images/photo-grid-tuman.jpg" alt="Собака на строге сена">
-            <img class="photo-grid__image" src="images/photo-grid-sochi.jpg" alt="Вид на горный лес">
-            <img class="photo-grid__image" src="images/photo-grid-arisa.jpg" alt="Колесом по льду">
-            <img class="photo-grid__image" src="images/photo-grid-baikal.jpg" alt="Песчанный берег Байкала">
-            <img class="photo-grid__image" src="images/photo-grid-elbrus.jpg" alt="Эльбрус">
-            <img class="photo-grid__image" src="images/photo-grid-kondratiev.jpg" alt="Берегоукрепительные тетраподы">
-            <img class="photo-grid__image" src="images/photo-grid-kamchatka-1.jpg" alt="Камчатские сопки">
-            <img class="photo-grid__image" src="images/photo-grid-kamchatka-2.jpg" alt="Вулукан на Камчатке">
-            <img class="photo-grid__image" src="images/photo-grid-baikal-2.jpg" alt="Скалистый байкальский берег">
-            <img class="photo-grid__image" src="images/photo-grid-ergaki.jpg" alt="Туман в горах">
+        <section aria-label="photo-group" class="photo-grid page__container">
+            <ul class="photo-grid__list">
+                <li><img class="photo-grid__image" src="images/photo-grid-train.jpg" alt="Вид из окна вагона"></li>
+                <li><img class="photo-grid__image" src="images/photo-grid-atharva-tulsi.jpg" alt="Вид на горы"></li>
+                <li><img class="photo-grid__image" src="images/photo-grid-tuman.jpg" alt="Собака на стоге сена"></li>
+                <li><img class="photo-grid__image" src="images/photo-grid-sochi.jpg" alt="Вид на горный лес"></li>
+                <li><img class="photo-grid__image" src="images/photo-grid-arisa.jpg" alt="Колесом по льду"></li>
+                <li><img class="photo-grid__image" src="images/photo-grid-baikal.jpg" alt="Песчанный берег Байкала">
+                </li>
+                <li><img class="photo-grid__image" src="images/photo-grid-elbrus.jpg" alt="Эльбрус"></li>
+                <li><img class="photo-grid__image" src="images/photo-grid-kondratiev.jpg"
+                        alt="Берегоукрепительные тетраподы"></li>
+                <li><img class="photo-grid__image" src="images/photo-grid-kamchatka-1.jpg" alt="Камчатские сопки"></li>
+                <li><img class="photo-grid__image" src="images/photo-grid-kamchatka-2.jpg" alt="Вулукан на Камчатке">
+                </li>
+                <li><img class="photo-grid__image" src="images/photo-grid-baikal-2.jpg"
+                        alt="Скалистый байкальский берег"></li>
+                <li><img class="photo-grid__image" src="images/photo-grid-ergaki.jpg" alt="Туман в горах"></li>
+            </ul>
         </section>
         <section class="place page__container page__container-narrow">
             <ul class="place__list">
